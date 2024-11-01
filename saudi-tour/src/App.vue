@@ -1,18 +1,13 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
- 
+import Navbar from './components/pages/Navbar.vue'
+import './components/assets/main.css'
 </script>
 
+
 <template>
- 
-
-    <div class="wrapper">
-   <h1>TourSaudi</h1>
-    </div>
-   
-
-  
+   <Navbar />
 </template>
+
 
 <style scoped>
  
